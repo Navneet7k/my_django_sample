@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-4qe4*3pg_78^%o&2w3a91b*=%uf=pviah6^noonx7xra)wrq72
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['todoproject.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
