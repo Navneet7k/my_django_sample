@@ -77,27 +77,27 @@ WSGI_APPLICATION = 'todoproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lottery',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
-        'PORT':'5432'
-    }
-}
-
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dcjf0fu8ucviii',
-#         'USER': 'ytjblkjusdygfh',
-#         'PASSWORD': 'e9bad0e07308b81bb53ee5be7e268cc04b84764b655e22af0123fcb6bde9b18d',
-#         'HOST': 'ec2-54-173-237-110.compute-1.amazonaws.com',
+#         'NAME': 'lottery',
+#         'USER': 'postgres',
+#         'PASSWORD': 'admin',
+#         'HOST': 'localhost',
 #         'PORT':'5432'
 #     }
 # }
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dcjf0fu8ucviii',
+        'USER': 'ytjblkjusdygfh',
+        'PASSWORD': 'e9bad0e07308b81bb53ee5be7e268cc04b84764b655e22af0123fcb6bde9b18d',
+        'HOST': 'ec2-54-173-237-110.compute-1.amazonaws.com',
+        'PORT':'5432'
+    }
+}
 
 
 # Password validation
