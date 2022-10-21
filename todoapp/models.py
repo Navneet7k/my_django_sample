@@ -17,14 +17,14 @@ class LotteryData(models.Model):
     date = models.CharField(max_length=50, blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'lottery_data'
 
-# class LotteryNew(models.Model):
+class LotteryNew(models.Model):
     name = models.CharField(max_length=50, blank=True, null=True)
     date = models.CharField(max_length=50, blank=True, null=True)
     link = models.CharField(max_length=100, blank=True, null=True)
 
     class Meta:
-        managed = False
+        managed = True
         db_table = 'lottery_new'
